@@ -1,0 +1,505 @@
+:root {
+  --main-bg: #FFFFFF;
+  --second-bg: #F8F8FA;
+  --main-color: #2FD4C6;
+  --second-color: #028485;
+  --third-color: #EFD30B;
+  --fourth-color: #FFFFFF;
+  --fifth-color: #F2F2F2;
+  --main-text-color: #181818;
+  --second-text-color: #707070;
+  --third-text-color: #A3A3A3;
+  --fourth-text-color: #FFFFFF;
+  --fifth-text-color: #2FD4C6;
+  --main-icon-color: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.main-bg {
+  background: var(--main-bg);
+}
+
+.second-bg {
+  background: var(--second-bg);
+}
+
+.main-color {
+  background: var(--main-color);
+  border: none;
+  color: var(--fifth-text-color);
+  text-decoration: none;
+}
+
+.main-color:hover {
+  background: var(--main-color);
+  border: none;
+  color: var(--fourth-text-color);
+}
+
+.outline-main-color {
+  background: var(--main-bg);
+  border: 2px solid var(--main-color);
+  color: var(--fifth-text-color);
+  text-decoration: none;
+}
+
+.outline-main-color:hover {
+  background: var(--main-color);
+  border: 2px solid var(--main-color);
+  color: var(--fourth-text-color);
+}
+
+.fill-main-color {
+  background: var(--main-color);
+  border: none;
+  border-radius: 50px;
+  padding: 6px 12px;
+  color: var(--fourth-text-color);
+}
+
+.second-color {
+  background: var(--second-color);
+  border: none;
+}
+
+.third-color {
+  color: var(--third-color);
+}
+
+.fourth-color {
+  background: var(--fourth-color);
+  border: none;
+}
+
+.fifth-color {
+  background: var(--fifth-color);
+  border: none;
+}
+
+.main-text-color {
+  color: var(--main-text-color);
+}
+
+.main-text-color:hover {
+  color: var(--main-text-color);
+}
+
+.second-text-color {
+  color: var(--second-text-color);
+}
+
+.third-text-color {
+  color: var(--third-text-color);
+}
+
+.fourth-text-color {
+  color: var(--fourth-text-color);
+}
+
+.fifth-text-color {
+  color: var(--fifth-text-color);
+}
+
+.main-icon-color {
+  color: var(--main-icon-color);
+}
+
+.img-size-sm {
+  width: 100px;
+}
+
+.img-size-md {
+  width: 130px;
+}
+
+.fs-sm {
+  font-size: 12px;
+}
+
+.fs-md {
+  font-size: 14px;
+}
+
+.fw-sb {
+  font-weight: 600;
+}
+
+body .main {
+  height: 100vh;
+}
+
+body .main-content,
+body .top-selling-content,
+body .restaurants-content,
+body .budget-friendly-content,
+body .meal-content,
+body .menu-content,
+body .order-list-content,
+body .menu-info-content,
+body .review-content,
+body .history-content {
+  height: 100vh;
+}
+
+body .main-content section,
+body .top-selling-content section,
+body .restaurants-content section,
+body .budget-friendly-content section,
+body .meal-content section,
+body .menu-content section,
+body .order-list-content section,
+body .menu-info-content section,
+body .review-content section,
+body .history-content section {
+  margin-bottom: 11vh;
+}
+
+body main .content-height {
+  height: 600px;
+}
+
+body main .search {
+  border: none;
+  border-radius: 15px;
+  background: var(--second-bg);
+  height: 38px;
+}
+
+body main .search-filter,
+body main .view-more {
+  border-radius: 15px;
+  background: var(--main-color);
+  color: var(--fourth-text-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  border: none;
+}
+
+body main .search-filter:hover,
+body main .view-more:hover {
+  color: var(--fourth-text-color);
+  border: none;
+  border: 1px solid var(--main-color);
+  text-decoration: none;
+}
+
+body main nav {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+body main nav a i {
+  font-size: 18px;
+}
+
+body main nav a p {
+  font-size: 14px;
+}
+
+body main nav a:hover i, body main nav a:hover p {
+  color: var(--main-color);
+}
+
+body main nav .active-icon i, body main nav .active-icon p {
+  color: var(--main-color);
+}
+
+body main .top-selling,
+body main .budget-friendly,
+body main .meal,
+body main .menu,
+body main .history {
+  margin-bottom: 80px;
+}
+
+body main .top-selling .wrapper,
+body main .budget-friendly .wrapper,
+body main .meal .wrapper,
+body main .menu .wrapper,
+body main .history .wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+body main .top-selling .wrapper .card,
+body main .budget-friendly .wrapper .card,
+body main .meal .wrapper .card,
+body main .menu .wrapper .card,
+body main .history .wrapper .card {
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px;
+  width: 180px;
+  height: 215px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+body main .top-selling .wrapper .card img,
+body main .budget-friendly .wrapper .card img,
+body main .meal .wrapper .card img,
+body main .menu .wrapper .card img,
+body main .history .wrapper .card img {
+  width: 100%;
+  height: 160px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px 10px 0 10px;
+  border-radius: 20px;
+}
+
+body main .top-selling .wrapper .card .card-body,
+body main .budget-friendly .wrapper .card .card-body,
+body main .meal .wrapper .card .card-body,
+body main .menu .wrapper .card .card-body,
+body main .history .wrapper .card .card-body {
+  padding: 0 11px 14px 11px;
+}
+
+body main .top-selling .wrapper::-webkit-scrollbar,
+body main .budget-friendly .wrapper::-webkit-scrollbar,
+body main .meal .wrapper::-webkit-scrollbar,
+body main .menu .wrapper::-webkit-scrollbar,
+body main .history .wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+body main .top-selling .wrapper a:hover,
+body main .budget-friendly .wrapper a:hover,
+body main .meal .wrapper a:hover,
+body main .menu .wrapper a:hover,
+body main .history .wrapper a:hover {
+  color: var(--main-text-color);
+}
+
+body main .top-selling .wrapper .view-all,
+body main .budget-friendly .wrapper .view-all,
+body main .meal .wrapper .view-all,
+body main .menu .wrapper .view-all,
+body main .history .wrapper .view-all {
+  font-size: 14px;
+}
+
+body main .top-selling .wrapper .view-all:hover,
+body main .budget-friendly .wrapper .view-all:hover,
+body main .meal .wrapper .view-all:hover,
+body main .menu .wrapper .view-all:hover,
+body main .history .wrapper .view-all:hover {
+  color: var(--main-text-color);
+}
+
+body main .restaurants {
+  margin-bottom: 80px;
+}
+
+body main .restaurants .wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+body main .restaurants .wrapper .card {
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px;
+  width: 300px;
+  height: 245px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+body main .restaurants .wrapper .card img {
+  width: 100%;
+  height: 190px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px 10px 0 10px;
+  border-radius: 20px;
+}
+
+body main .restaurants .wrapper .card a {
+  border-radius: 8px;
+}
+
+body main .restaurants .wrapper .card .card-body {
+  padding: 0 11px 14px 11px;
+}
+
+body main .restaurants .wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+body main .restaurants .wrapper .view-all {
+  font-size: 14px;
+}
+
+body main .restaurants .wrapper .view-all:hover {
+  color: var(--main-text-color);
+}
+
+body main .restaurants .restaurant-info p {
+  width: 200px;
+}
+
+body main .restaurants .restaurant-info a {
+  font-size: 12px;
+}
+
+body main .card {
+  border: none;
+  border-radius: 15px;
+}
+
+body main .card .food-card {
+  border: none;
+  border-radius: 15px;
+  height: 115px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+body main .card .food-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+body main .card .food-card .card-body p {
+  width: 180px;
+}
+
+body main .card .restaurant-card {
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+body main .card .restaurant-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px 10px 0 10px;
+  border-radius: 20px;
+}
+
+body main .card .restaurant-card .card-body {
+  margin-left: 4px;
+}
+
+body main .card .restaurant-card .card-body p {
+  width: 200px;
+}
+
+body main .card .menu-card {
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+body main .card .menu-card img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+body main .card .menu-card .card-body .time-icon {
+  background: var(--fifth-color);
+  border-radius: 50px;
+}
+
+body main .card .history-card {
+  border: none;
+  border-radius: 15px;
+  display: inline-block;
+  overflow: hidden;
+}
+
+body main .card .history-card .card-body .view-info {
+  padding: 6px 12px;
+  height: 35px;
+  border-radius: 15px;
+  background: var(--main-color);
+  color: var(--fourth-text-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  border: none;
+}
+
+body main .card .history-card .card-body .view-info:hover {
+  border: none;
+  text-decoration: none;
+}
+
+body main .my-list section .order-list {
+  height: 635px;
+}
+
+body main .my-list section .order-list::-webkit-scrollbar {
+  display: none;
+}
+
+body main .menu section .menu-info {
+  height: 630px;
+}
+
+body main .review input[type="range"]::-webkit-slider-thumb {
+  background: var(--main-color);
+}
+
+body .restaurants-content .restaurant-header img {
+  position: relative;
+  z-index: -1;
+}
+
+body .restaurants-content .restaurant-header .header-content {
+  width: 100%;
+  position: absolute;
+  top: 30px;
+}
+
+body .restaurants-content .review .review-content {
+  margin-bottom: 55px;
+}
+
+body .restaurants-content .review .review-content .review-comment {
+  border-bottom: 1px solid var(--fifth-color);
+}
+
+body .restaurants-content .review .review-content .review-comment img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+body .restaurants-content .review .review-content .review-comment h6 {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
