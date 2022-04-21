@@ -8,7 +8,7 @@
     <title>iSKAN</title>
 
     <!-- Extensions -->
-    <link rel="stylesheet" href="../../../dist/styles/style.css">
+    <link rel="stylesheet" href="../../dist/styles/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,19 +25,19 @@
     <main class="menu-content">
         <nav class="navbar fixed-bottom second-bg">
             <div class="container d-flex justify-content-around">
-                <a href="../../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="menu.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../profile/my_profile.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>
@@ -52,7 +52,7 @@
                     </div>
                     <div class="d-flex justify-content-between">
                         <div class="me-2">
-                            <a class="btn search-filter main-color w-100" href="../my-list/my_list.php">
+                            <a class="btn search-filter main-color w-100" href="my_list.php">
                                 <i class="bi bi-handbag main-icon-color"></i>
                             </a>
                         </div>
@@ -79,7 +79,7 @@
                             <div class="card-body d-flex flex-column p-2 mx-1">
                                 <div class="mb-2">
                                     <div class="d-flex justify-content-between">
-                                        <a href="menu-info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
+                                        <a href="menu_info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-title fw-bold main-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                     <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Lorem ipsum dolor sit amet.</p>
@@ -100,7 +100,7 @@
                             <div class="card-body d-flex flex-column p-2 mx-1">
                                 <div class="mb-2">
                                     <div class="d-flex justify-content-between">
-                                        <a href="menu-info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
+                                        <a href="menu_info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-title fw-bold main-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                     <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Lorem ipsum dolor sit amet.</p>
@@ -121,7 +121,7 @@
                             <div class="card-body d-flex flex-column p-2 mx-1">
                                 <div class="mb-2">
                                     <div class="d-flex justify-content-between">
-                                        <a href="menu-info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
+                                        <a href="menu_info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-title fw-bold main-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                     <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Lorem ipsum dolor sit amet.</p>
@@ -142,7 +142,7 @@
                             <div class="card-body d-flex flex-column p-2 mx-1">
                                 <div class="mb-2">
                                     <div class="d-flex justify-content-between">
-                                        <a href="menu-info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
+                                        <a href="menu_info.php" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-title fw-bold main-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                     <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Lorem ipsum dolor sit amet.</p>
@@ -155,7 +155,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>T
+                    </div>
                 </section>
             </div>
         </div>

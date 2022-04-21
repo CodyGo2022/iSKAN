@@ -68,7 +68,10 @@
         </div>
 
         <div class="d-flex justify-content-center">
-            <a href="register/register_phase_one.php" type="button" class="outline-main-color mt-5 py-2 px-5 rounded-3">Register with Phone Number</a>
+            <a href="login/login_phase_one.php" type="button" class="main-color mt-3 py-2 text-center rounded-3 login-btn">Login with Phone Number</a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <a href="register/register_phase_one.php" type="button" class="outline-main-color mt-3 py-2 text-center rounded-3 register-btn">Register with Phone Number</a>
         </div>
     </main>
 

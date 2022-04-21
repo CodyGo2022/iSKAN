@@ -8,7 +8,7 @@
     <title>iSKAN</title>
 
     <!-- Extensions -->
-    <link rel="stylesheet" href="../../../dist/styles/style.css">
+    <link rel="stylesheet" href="../../dist/styles/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,59 +22,51 @@
 
 </head>
 <body>
-    <main class="review-content">
+    <main class="menu-item-content">
         <nav class="navbar fixed-bottom second-bg">
             <div class="container d-flex justify-content-around">
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="save_item.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>
             </div>
         </nav>
 
-        <div class="d-flex align-item-start flex-column main-text-color h-100 px-4">
-            <div class="pt-4">
-
-                <!-- Review module -->
-                <section class="review">
-                    <div class="d-flex justify-content-between mb-2">
-                        <h6 class="fw-bold">Review</h6>
-                        <a href="../my-list/my_list.php" class="text-decoration-none main-text-color">
+        <section class="d-flex flex-column main-text-color">
+            <div class="create-store-header">
+                <div class="px-4">
+                    <div class="d-flex justify-content-between">
+                        <h6 class="fw-bold mb-0 fourth-text-color">Save Menu list</h6>
+                        <a href="my_menu.php" class="text-decoration-none fourth-text-color">
                             <i class="bi bi-arrow-left fa-lg"></i>
                         </a>
                     </div>
-                    
-                    <div class="mb-4">
-                        <p class="fs-sm third-text-color mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem ipsa sit maxime beatae laborum.</p>
-                        <label for="review" class="form-label">Emoji range</label>
-                        <input type="range" class="form-range" min="0" max="4" id="review">
-                    </div>
-
-                    <!-- transfer inline style -->
-
-                    <div class="form-floating">
-                        <textarea class="form-control" placeholder="Leave a comment here" id="review" style="height: 300px; resize: none; outline: none; font-size: 14px"></textarea>
-                        <label for="review" class="third-text-color">Write your review here</label>
-                    </div>
-
-                    <div class="d-flex justify-content-center">
-                        <a href="../../dashboard.php" type="button" class="view-more mt-3 w-100" style="padding: 6px 12px; height: 45px">Submit review</a>
-                    </div>
-                </section>
+                </div>
             </div>
-        </div>
+            <div class="d-flex card px-4 py-4">
+                <div>
+                    <!--QR Code-->
+                </div>
+
+                <p class="outline-main-color w-100 py-2 mb-2 rounded-3 text-center">QQRDFL5LW</p>
+                <button class="main-color w-100 py-2 mb-2 rounded-3 text-center">Print Menu</button>
+                <button class="main-color w-100 py-2 mb-2 rounded-3 text-center">Save Image</button>
+                <!-- <button class="main-color w-100 py-2 mb-2 rounded-3 text-center">Next</button> -->
+                <a href="publish_menu.php" class="main-color w-100 py-2 mb-2 rounded-3 text-center">Next</a>
+            </div>
+        </section>
     </main>
 
     <!-- Bootstrap -->

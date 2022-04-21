@@ -29,7 +29,7 @@
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="scan/qr-scanner/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="scan/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
@@ -37,7 +37,7 @@
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="profile/my_profile.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>
@@ -72,7 +72,7 @@
                         <div class="card shadow-sm ms-4">
                             <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="card-img-top img-size-sm img-fluid" alt="...">
                             <div class="card-body">
-                                <a href="home/top-selling/food_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
+                                <a href="home/food_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
                                 <div class="d-flex align-items-center">
                                     <i class="bi bi-star-fill fa-sm me-2 third-color"></i>
                                     <p class="card-text fs-sm second-text-color">4.5</p>
@@ -83,7 +83,7 @@
                         <div class="card shadow-sm">
                             <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="card-img-top img-size-sm" alt="...">
                             <div class="card-body">
-                                <a href="home/top-selling/food_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
+                                <a href="home/food_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
                                 <div class="d-flex align-items-center">
                                     <i class="bi bi-star-fill fa-sm me-2 third-color"></i>
                                     <p class="card-text fs-sm second-text-color">4.5</p>
@@ -94,7 +94,7 @@
                         <div class="card shadow-sm">
                             <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="card-img-top img-size-sm" alt="...">
                             <div class="card-body">
-                                <a href="home/top-selling/food_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
+                                <a href="home/food_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
                                 <div class="d-flex align-items-center">
                                     <i class="bi bi-star-fill fa-sm me-2 third-color"></i>
                                     <p class="card-text fs-sm second-text-color">4.5</p>
@@ -104,7 +104,7 @@
 
                         <div class="card shadow-sm me-4">
                             <div class="card-body d-flex justify-content-center align-items-center h-100 p-2">
-                                <a href="home/top-selling/top_selling.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
+                                <a href="home/top_selling.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
                             </div>
                         </div>
                     </div>
@@ -117,7 +117,7 @@
                         <div class="card shadow-sm ms-4">
                             <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="card-img-top img-size-sm" alt="...">
                             <div class="card-body">
-                                <a href="home/restaurants/restaurant_profile.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
+                                <a href="home/restaurant_profile.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
                                 <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                             </div>
                         </div>
@@ -132,7 +132,7 @@
 
                         <div class="card shadow-sm me-4">
                             <div class="card-body d-flex justify-content-center align-items-center h-100 p-2">
-                                <a href="home/restaurants/restaurants.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
+                                <a href="home/restaurants.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@
                         <div class="card shadow-sm ms-4">
                             <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="card-img-top img-size-sm" alt="...">
                             <div class="card-body">
-                                <a href="home/budget-friendly/budget_friendly_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
+                                <a href="home/budget_friendly_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
                                 <div class="d-flex align-items-center">
                                     <p class="card-text fs-sm second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                 </div>
@@ -164,7 +164,7 @@
 
                         <div class="card shadow-sm me-4">
                             <div class="card-body d-flex justify-content-center align-items-center h-100 p-2">
-                                <a href="home/budget-friendly/budget_friendly.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
+                                <a href="home/budget_friendly.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
                             </div>
                         </div>
                     </div>
@@ -177,7 +177,7 @@
                         <div class="card shadow-sm ms-4">
                             <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="card-img-top img-size-sm" alt="...">
                             <div class="card-body">
-                                <a href="home/daily-meal/daily_meal_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
+                                <a href="home/daily_meal_info.php" class="card-title stretched-link text-decoration-none main-text-color fs-md fw-sb">Lorem, ipsum.</a>
                                 <div class="d-flex align-items-center">
                                     <p class="card-text fs-sm second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                 </div>
@@ -206,7 +206,7 @@
 
                         <div class="card shadow-sm me-4">
                             <div class="card-body d-flex justify-content-center align-items-center h-100 p-2">
-                                <a href="home/daily-meal/daily_meal.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
+                                <a href="home/daily_meal.php" class="card-title stretched-link text-decoration-none second-text-color view-all">View all</a>
                             </div>
                         </div>
                     </div>

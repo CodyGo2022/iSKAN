@@ -29,15 +29,15 @@
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="../scan/qr-scanner/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../scan/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="history_info.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../profile/my_profile.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>

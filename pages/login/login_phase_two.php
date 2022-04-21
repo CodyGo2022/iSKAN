@@ -26,24 +26,26 @@
         <div class="d-flex align-item-start flex-column main-text-color h-100 px-4">
             <div class="pt-5">
                 <div class="d-flex flex-row justify-content-between">
-                    <h5 class="fw-bold pb-2">Enter Phone Number</h5>
-                    <a href="../secondary_index.php" class="main-text-color">
+                    <h5 class="fw-bold pb-2">Verification</h5>
+                    <a href="login_phase_one.php" class="main-text-color">
                         <i class="bi bi-arrow-left fa-lg"></i>
                     </a>
-                </div>    
+                </div>  
 
                 <p class="pb-2 fs-6 second-text-color">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
 
                 <div class="form-floating">
-                    <input type="number" class="form-control" id="floatingPhonenumber" placeholder="Phone number">
-                    <label for="floatingPhonenumber">Phone number</label>
+                    <input type="number" class="form-control" id="floatingOTP" placeholder="OTP">
+                    <label for="floatingOTP">OTP</label>
                 </div>
+
+                <span class="d-flex justify-content-center fs-6 second-text-color mt-2">Didn't get code? <a href="#" class="fifth-text-color">Resend OTP</a></span>
             </div>
             
-            <div class="d-flex align-items-end pb-5 w-100 h-100">
-                <a href="register_phase_two.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
-                    <!-- <i class="bi bi-phone fa-lg"></i> -->
-                    Send OTP
+            <div class="d-flex  align-items-end pb-5 w-100 h-100">
+                <a href="../dashboard.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
+                    <!-- <i class="bi bi-patch-check fa-lg"></i> -->
+                    Login
                 </a>
             </div>
         </div>

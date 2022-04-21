@@ -8,7 +8,7 @@
     <title>iSKAN</title>
 
     <!-- Extensions -->
-    <link rel="stylesheet" href="../../../dist/styles/style.css">
+    <link rel="stylesheet" href="../../dist/styles/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,33 +25,31 @@
     <main class="main">
         <nav class="navbar fixed-bottom second-bg">
             <div class="container d-flex justify-content-around">
-                <a href="../../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../profile/my_profile.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>
             </div>
         </nav>
 
-        <section class="d-flex justify-content-center flex-column main-text-color px-4 h-100">
-            <div>
-                <div class="d-flex flex-column align-items-end w-100 h-100">
-                    <a href="../menu/menu.php" type="button" class="main-color w-100 py-2 rounded-3 text-center fourth-text-color">
-                        Dine In
-                    </a>
-                    <a href="../menu/menu.php" type="button" class="outline-main-color w-100 mt-2 py-2 rounded-3 text-center">
-                        Take Out
+        <section class="d-flex justify-content-end flex-column main-text-color px-4 h-100">
+            <div class="pb-5">
+                <div class="d-flex align-items-end pb-5 w-100 h-100">
+                    <a href="order_option.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
+                        <!-- <i class="bi bi-phone fa-lg"></i> -->
+                        Scan the QR Code to view menu
                     </a>
                 </div>
             </div>

@@ -8,7 +8,7 @@
     <title>iSKAN</title>
 
     <!-- Extensions -->
-    <link rel="stylesheet" href="../../../dist/styles/style.css">
+    <link rel="stylesheet" href="../../dist/styles/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,29 +22,29 @@
 
 </head>
 <body>
-    <main class="top-selling-content">
+    <main class="meal-content">
         <nav class="navbar fixed-bottom second-bg">
             <div class="container d-flex justify-content-around">
-                <a href="../../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="daily_meal.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="../../scan/qr-scanner/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../scan/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="../../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../profile/my_profile.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>
             </div>
         </nav>
 
-        <div class="d-flex align-item-start flex-column main-text-color px-4">
+        <div class="d-flex align-item-start flex-column main-text-color h-100 px-4">
             <div class="pt-4">
                 <section class="row g-0 mb-4">
                     <div class="col-10">
@@ -63,13 +63,13 @@
                             </ul>
                         </div>
                     </div>
-                </section>  
+                </section>
                 
-                <!-- Top selling module -->
-                <section class="top-selling">
+                <!-- Breakfast meal module -->
+                <section class="meal">
                     <div class="d-flex justify-content-between">
-                        <h6 class="fw-bold mb-3">Top Selling</h6>
-                        <a href="../../dashboard.php" class="text-decoration-none main-text-color">
+                        <h6 class="fw-bold mb-3">Breakfast Meal</h6>
+                        <a href="../dashboard.php" class="text-decoration-none main-text-color">
                             <i class="bi bi-arrow-left fa-lg"></i>
                         </a>
                     </div>
@@ -83,13 +83,13 @@
                                         <a href="#" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                                     </div>
-                                    <div class="card-text d-flex align-items-center m-0">
-                                        <i class="bi bi-star-fill fa-md me-2 third-color"></i>
-                                        <p class="card-text fs-sm second-text-color">4.9</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="card-text fs-md second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card shadow-sm mb-3">
                             <div class="d-flex flex-row food-card">
                                 <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="img-size-md" alt="...">
@@ -98,13 +98,13 @@
                                         <a href="#" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                                     </div>
-                                    <div class="card-text d-flex align-items-center m-0">
-                                        <i class="bi bi-star-fill fa-md me-2 third-color"></i>
-                                        <p class="card-text fs-sm second-text-color">4.9</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="card-text fs-md second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card shadow-sm mb-3">
                             <div class="d-flex flex-row food-card">
                                 <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="img-size-md" alt="...">
@@ -113,13 +113,13 @@
                                         <a href="#" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                                     </div>
-                                    <div class="card-text d-flex align-items-center m-0">
-                                        <i class="bi bi-star-fill fa-md me-2 third-color"></i>
-                                        <p class="card-text fs-sm second-text-color">4.9</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="card-text fs-md second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card shadow-sm mb-3">
                             <div class="d-flex flex-row food-card">
                                 <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="img-size-md" alt="...">
@@ -128,13 +128,13 @@
                                         <a href="#" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                                     </div>
-                                    <div class="card-text d-flex align-items-center m-0">
-                                        <i class="bi bi-star-fill fa-md me-2 third-color"></i>
-                                        <p class="card-text fs-sm second-text-color">4.9</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="card-text fs-md second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                         <div class="card shadow-sm mb-3">
                             <div class="d-flex flex-row food-card">
                                 <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="img-size-md" alt="...">
@@ -143,13 +143,13 @@
                                         <a href="#" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                                     </div>
-                                    <div class="card-text d-flex align-items-center m-0">
-                                        <i class="bi bi-star-fill fa-md me-2 third-color"></i>
-                                        <p class="card-text fs-sm second-text-color">4.9</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="card-text fs-md second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="card shadow-sm mb-3">
                             <div class="d-flex flex-row food-card">
                                 <img src="https://www.fastcat.com.ph/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" class="img-size-md" alt="...">
@@ -158,13 +158,13 @@
                                         <a href="#" class="card-title fw-bold stretched-link text-decoration-none main-text-color">Lorem, ipsum.</a>
                                         <p class="card-text fs-sm second-text-color text-nowrap overflow-hidden">Olympus Arcade, 95 Zabarte Rd.</p>
                                     </div>
-                                    <div class="card-text d-flex align-items-center m-0">
-                                        <i class="bi bi-star-fill fa-md me-2 third-color"></i>
-                                        <p class="card-text fs-sm second-text-color">4.9</p>
+                                    <div class="d-flex align-items-center">
+                                        <p class="card-text fs-md second-text-color"><span class="me-1">&#8369;</span>99.00</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
+
                     </section>
                 </section>
             </div>

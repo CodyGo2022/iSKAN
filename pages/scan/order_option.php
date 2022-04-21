@@ -22,18 +22,18 @@
 
 </head>
 <body>
-    <main class="history-content">
+    <main class="main">
         <nav class="navbar fixed-bottom second-bg">
             <div class="container d-flex justify-content-around">
                 <a href="../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="../scan/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="order_option.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
@@ -44,42 +44,18 @@
             </div>
         </nav>
 
-        <div class="d-flex align-item-start flex-column main-text-color px-4">
-            <div class="pt-4">
-                
-                <!-- Purchase history module -->
-                <section class="purhcase-history">
-                    <div class="d-flex justify-content-between">
-                        <h6 class="fw-bold mb-3">My Purchase History</h6>
-                        <a href="../dashboard.php" class="text-decoration-none main-text-color">
-                            <i class="bi bi-arrow-left fa-lg"></i>
-                        </a>
-                    </div>
-
-                    <section>
-                        <div class="card shadow-sm mb-3">
-                            <div class="d-flex history-card">
-                                <div class="card-body d-flex flex-column">
-                                    <div class="d-flex justify-content-between">
-                                        <p class="card-title fs-md fw-bold main-text-color mb-0">Lorem, ipsum.</p>
-                                        <p class="card-text fs-md fw-bold main-text-color mb-0"><span class="me-1">&#8369;</span>99.00</p>
-                                    </div>
-
-                                    <div>
-                                        <p class="fs-sm m-0">3 Order(s)</p>
-
-                                        <div class="d-flex justify-content-between align-items-center mt-2">
-                                            <span class="fs-sm third-text-color">29 March, Tues</span>
-                                            <a href="history_info.php" class="view-info fs-sm">view more</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </section>
+        <section class="d-flex justify-content-center flex-column main-text-color px-4 h-100">
+            <div>
+                <div class="d-flex flex-column align-items-end w-100 h-100">
+                    <a href="menu.php" type="button" class="main-color w-100 py-2 rounded-3 text-center fourth-text-color">
+                        Dine In
+                    </a>
+                    <a href="menu.php" type="button" class="outline-main-color w-100 mt-2 py-2 rounded-3 text-center">
+                        Take Out
+                    </a>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <!-- Bootstrap -->

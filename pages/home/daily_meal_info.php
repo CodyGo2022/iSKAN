@@ -8,7 +8,7 @@
     <title>iSKAN</title>
 
     <!-- Extensions -->
-    <link rel="stylesheet" href="../../../dist/styles/style.css">
+    <link rel="stylesheet" href="../../dist/styles/style.css">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,19 +25,19 @@
     <main class="top-selling-content">
         <nav class="navbar fixed-bottom second-bg">
             <div class="container d-flex justify-content-around">
-                <a href="../../dashboard.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
+                <a href="daily_meal_info.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color active-icon">
                     <i class="bi bi-house"></i>
                     <p class="mb-0">Home</p>
                 </a>
-                <a href="../../scan/qr-scanner/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../scan/qr_scan.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-fullscreen"></i>
                     <p class="mb-0">Scan</p>
                 </a>
-                <a href="../../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../history/history.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-receipt"></i>
                     <p class="mb-0">History</p>
                 </a>
-                <a href="#" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
+                <a href="../profile/my_profile.php" class="navbar-brand d-flex flex-column mx-0 px-2 align-items-center main-text-color">
                     <i class="bi bi-person"></i>
                     <p class="mb-0">Profile</p>
                 </a>
@@ -46,11 +46,10 @@
 
         <div class="d-flex align-item-start flex-column main-text-color h-100 px-4">
             <div class="pt-4">
-
-                <!-- Top selling module -->
-                <section class="top-selling">
+                <!-- Meal module -->
+                <section class="meal">
                     <div class="d-flex justify-content-end">
-                        <a href="../../dashboard.php" class="text-decoration-none main-text-color mb-3">
+                        <a href="../dashboard.php" class="text-decoration-none main-text-color mb-3">
                             <i class="bi bi-arrow-left fa-lg"></i>
                         </a>
                     </div>
@@ -91,11 +90,6 @@
                             <div class="d-flex align-items-center">
                                 <i class="bi bi-stopwatch fa-md me-2 third-color"></i>
                                 <p class="card-text fs-sm second-text-color">15-20 minutes</p>
-                            </div>
-
-                            <div class="d-flex align-items-center">
-                                <i class="bi-shop-window fa-md me-2 third-color"></i>
-                                <p class="card-text fs-sm second-text-color">Lorem, ipsum.</p>
                             </div>
 
                             <div class="d-flex align-items-center">

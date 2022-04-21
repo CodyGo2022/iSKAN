@@ -40,8 +40,8 @@
                 </div>
             </div>
             
-            <div class="d-flex align-items-end pb-5 w-100 h-100">
-                <a href="register_phase_two.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
+            <div class="d-flex  align-items-end pb-5 w-100 h-100">
+                <a href="login_phase_two.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
                     <!-- <i class="bi bi-phone fa-lg"></i> -->
                     Send OTP
                 </a>

@@ -27,7 +27,9 @@
             <div class="pt-5">
                 <div class="d-flex flex-row justify-content-between">
                     <h5 class="fw-bold pb-2">Verification</h5>
-                    <i class="bi bi-arrow-left fa-lg"></i>
+                    <a href="register_phase_one.php" class="main-text-color">
+                        <i class="bi bi-arrow-left fa-lg"></i>
+                    </a>
                 </div>  
 
                 <p class="pb-2 fs-6 second-text-color">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
