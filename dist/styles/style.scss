@@ -147,22 +147,120 @@ body{
         height: 100vh;
     }
     
-    .main-content,
-    .top-selling-content,
-    .restaurants-content,
-    .budget-friendly-content,
-    .meal-content,
-    .menu-content,
-    .order-list-content,
-    .menu-info-content,
-    .review-content,
-    .history-content,
-    .my-profile-content,
-    .menu-item-content{
+    .main-content{
         height: 100vh;
 
         section{
-            margin-bottom: 11vh;
+            margin-bottom: 90px;
+        }
+
+        .restaurant-header{
+            img{
+                position: relative;
+                z-index: -1;
+            }
+
+            .header-content{
+                width: 100%;
+                position: absolute; 
+                top: 30px;
+            }
+        }
+
+        .review{
+            .review-content{
+                margin-bottom: 55px;
+
+                .review-comment{
+                    border-bottom: 1px solid var(--fifth-color);
+
+                    img{
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 50px;
+                    }
+
+                    h6{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+
+        .profile-header{
+            background: var(--main-color);
+            width: 100%;
+            height: 13vh;
+            display: flex;
+            align-items: center;
+
+            div{
+                img{
+                    width: 60px;
+                    height: 60px;
+                    object-fit: cover;
+                    border-radius: 60px;
+                }
+
+                a, span{
+                    color: var(--fourth-text-color);
+                    margin-bottom: 0;
+                }
+            }
+        }
+
+        .edit-profile-header,
+        .create-store-header,
+        .publish-menu-header,
+        .create-item-header,
+        .my-store-header{
+            background: var(--main-color);
+            width: 100%;
+            padding: 35px 0;
+        }
+
+        .card{
+            border-radius: 0;
+
+            .underline{
+                border-bottom: 1px solid var(--fifth-color);
+            }
+
+            .edit-img-profile{
+                height: 120px;
+                
+                img{
+                    position: relative;
+                    width: 120px;
+                    height: 120px;
+                    object-fit: cover;
+                    border-radius: 100px;
+                }
+                
+                button{
+                    position: absolute;
+                    z-index: 1;
+                    background: var(--main-color);
+                    border: none;
+                    border-radius: 50px;
+                    width: 25px;
+                    height: 25px;
+                    top: 130px;
+                    left: 225px;
+
+                    i{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 13px;
+                        color: var(--fourth-text-color);
+                    }
+                }
+            }
+        }
+
+        .menu-list{
+            margin-bottom: 60px;
         }
     }
 
@@ -264,9 +362,9 @@ body{
                     .card-body{
                         padding: 0 11px 14px 11px;
 
-                        i{
-                            font-size: 25px;
-                        }
+                        // i{
+                        //     font-size: 25px;
+                        // }
                     }
                 }
 
@@ -291,7 +389,7 @@ body{
         }
 
         .restaurants{
-            margin-bottom: 80px;
+            margin-bottom: 0;
 
             .wrapper{
                 overflow-x: scroll;
@@ -468,120 +566,6 @@ body{
             input[type="range"]::-webkit-slider-thumb {
                 background: var(--main-color);
             }
-        }
-    }
-
-    .restaurants-content{
-        .restaurant-header{
-            img{
-                position: relative;
-                z-index: -1;
-            }
-
-            .header-content{
-                width: 100%;
-                position: absolute; 
-                top: 30px;
-            }
-        }
-
-        .review{
-            .review-content{
-                margin-bottom: 55px;
-
-                .review-comment{
-                    border-bottom: 1px solid var(--fifth-color);
-
-                    img{
-                        width: 40px;
-                        height: 40px;
-                        border-radius: 50px;
-                    }
-
-                    h6{
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-    }
-
-    .my-profile-content,
-    .menu-item-content{
-        .profile-header{
-            background: var(--main-color);
-            width: 100%;
-            height: 13vh;
-            display: flex;
-            align-items: center;
-
-            div{
-                img{
-                    width: 60px;
-                    height: 60px;
-                    object-fit: cover;
-                    border-radius: 60px;
-                }
-
-                a, span{
-                    color: var(--fourth-text-color);
-                    margin-bottom: 0;
-                }
-            }
-        }
-
-        .edit-profile-header,
-        .create-store-header,
-        .publish-menu-header,
-        .create-item-header,
-        .my-store-header{
-            background: var(--main-color);
-            width: 100%;
-            padding: 35px 0;
-        }
-
-        .card{
-            border-radius: 0;
-
-            .underline{
-                border-bottom: 1px solid var(--fifth-color);
-            }
-
-            .edit-img-profile{
-                height: 120px;
-                
-                img{
-                    position: relative;
-                    width: 120px;
-                    height: 120px;
-                    object-fit: cover;
-                    border-radius: 100px;
-                }
-                
-                button{
-                    position: absolute;
-                    z-index: 1;
-                    background: var(--main-color);
-                    border: none;
-                    border-radius: 50px;
-                    width: 25px;
-                    height: 25px;
-                    top: 130px;
-                    left: 225px;
-
-                    i{
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        font-size: 13px;
-                        color: var(--fourth-text-color);
-                    }
-                }
-            }
-        }
-
-        .menu-list{
-            margin-bottom: 60px;
         }
     }
 }

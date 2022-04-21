@@ -57,7 +57,7 @@
             </div>
             
             <div class="d-flex  align-items-end pb-5 w-100 h-100">
-                <a href="../dashboard.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
+                <a href="../home/dashboard.php" type="button" class="outline-main-color w-100 mt-5 py-2 rounded-3 text-center">
                     <!-- <i class="bi bi-patch-check fa-lg"></i> -->
                     Register
                 </a>
