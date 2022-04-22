@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>iSCAN</title>
+    <title>iSKAN</title>
+    <link rel = "icon" href = "../../dist/image/iSKAN-main-logo.png" type = "image/x-icon">
 
     <!-- Extensions -->
     <link rel="stylesheet" href="../../dist/styles/style.css">

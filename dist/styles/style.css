@@ -136,6 +136,12 @@ body .main {
   height: 100vh;
 }
 
+body .main .form-floating input::-webkit-outer-spin-button,
+body .main .form-floating input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 body .main-content {
   height: 100vh;
 }
